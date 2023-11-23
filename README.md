@@ -12,6 +12,11 @@ An awsome belt tension meter: [Link](https://github.com/Diyshift/3D-Printer/tree
 
 <img src="https://github.com/Diyshift/3D-Printer/blob/main/GT2%20Belt%20Tension%20Meter/Images/meteronbelt.JPG" width=600>
 
+DIY Silicone Brush: [Link](https://github.com/Diyshift/3D-Printer/tree/main/Silicone%20Brush%20for%20Decontaminator)
+
+<img src="https://github.com/Diyshift/3D-Printer/raw/main/Silicone%20Brush%20for%20Decontaminator/Images/brush_iso.png" width=600>
+
+
 ## SW:
 
 
