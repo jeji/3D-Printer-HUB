@@ -1,17 +1,20 @@
 # 3D Printer HUB
 3D Printer collection hub
 
-##Printer:
+## Printer:
 
-##HW:
+## HW:
 
-###Useful Tools:
+### Useful Tools:
 
 An awsome belt tension meter: [Link](https://github.com/Diyshift/3D-Printer/tree/main/GT2%20Belt%20Tension%20Meter)
 
 <img src="https://github.com/Diyshift/3D-Printer/blob/main/GT2%20Belt%20Tension%20Meter/Images/meteronbelt.JPG" width=600>
 
-##SW:
+## SW:
+
+
+
 
 
 This work is licensed under a
