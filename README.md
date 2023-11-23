@@ -11,8 +11,8 @@ An awsome belt tension meter: [Link](https://github.com/Diyshift/3D-Printer/tree
 
 ##SW:
 
-All works outside of this repository belong to their orginal creator
-This repository work made by me is licensed under a
+
+This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
