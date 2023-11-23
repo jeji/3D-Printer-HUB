@@ -1,5 +1,16 @@
 # 3D Printer HUB
-3D Printer collection hub
+Build a 3D printer is fun, but it can be also painful while search in tons of tech staff, mods, configs
+
+Hence I collect all useful information here and make them organized (kind of) 
+
+Feel free to raise a ticket at issues tab or submit a commitment if you have anything can be shared
+
+I can be reached at Voron Discord chanel via @jerryji
+
+Big thanks for all these awsome creators, you make all happen!
+
+Happy printing
+
 
 ## Printer:
 
