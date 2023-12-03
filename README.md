@@ -30,7 +30,9 @@ DIY Silicone Brush: [Link](https://github.com/Diyshift/3D-Printer/tree/main/Sili
 
 ## SW:
 
+Klippain - The pain-free recipe for (french)bread and butter Klipper configuration!
 
+https://github.com/Frix-x/klippain
 
 
 
