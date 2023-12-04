@@ -1,19 +1,34 @@
-# 3D Printer HUB
-Build a 3D printer is fun, but it can be also painful while search in tons of tech staff, mods, configs
+# Intro
+Build a 3D printer is fun, but it can be also painful while find and organize these of tech staff, mods, configs \
+Hence I create this hub and try to consolidate them as a signal entry for my printer build guide (yours maybe) \
+Even this is mainly focus on Voron and klipper but most of them can be used by other DIY/Commerical printer as well 
 
-Hence I collect all useful information here and make them organized (kind of) 
+Feel free to raise a ticket at issues tab or submit a commitment if you have anything can be shared \
+I can be reached at [![Discord Icon](/images/discord-24.png "Discord") Voron channel](https://discord.gg/voron)  via @jerryji
 
-Feel free to raise a ticket at issues tab or submit a commitment if you have anything can be shared
-
-I can be reached at Voron Discord chanel via @jerryji
-
-Big thanks for all these awsome creators, you make all happen!
-
-Happy printing
-
+**Big thanks for all these awsome creators, you guys make all happen!**
+**And happy printing**
 
 ## Printer:
+[HyperCube](https://www.thingiverse.com/thing:1752766) or [HyperCube Evalution](https://www.thingiverse.com/thing:2254103) \
+Salute for these legacy corexy printers, they bring the corexy printer for more popular \
+Even now, one of my dream is remix they to have these fancy klipper features under a reasonable budget 
 
+[Voron](https://vorondesign.com/) \
+Do we even need a comment here... \
+ok, ok, if you are new for DIY 3D printer, Trident is my recommendation, but after that you will disever a V2 or V0 or SW or Legacy, who knows...
+
+[VzBot](https://github.com/VzBoT3D)
+A fast corexy printer series, I mean, very fast
+
+[Annex Engineering](https://github.com/Annex-Engineering)
+A fast cross gantry, AWD driver, make sure your house is strong enough to hold this monster
+
+[HevORT](https://hevort.com/)
+A fancy corexy printer with ballscrew at Z axis
+
+[The 100](https://github.com/MSzturc/the100)
+My new favior corexy printer, not fancy, but fast and wallet friendly
 
 ## HW:
 
