@@ -1,56 +1,78 @@
+***This repo is/will being kept update, the progress depends how busy(lazy) I am*** 😝
+
 # Intro
+
 Build a 3D printer is fun, but it can be also painful while find and organize these of tech staff, mods, configs \
-Hence I create this hub and try to consolidate them as a signal entry for my printer build guide (yours maybe) \
-Even this is mainly focus on Voron and klipper but most of them can be used by other DIY/Commerical printer as well 
+Hence I create this hub and try to consolidate them as a signal entry for 3D printer build guide \
+Even this is mainly focus on [Voron](https://vorondesign.com/) and [klipper](https://www.klipper3d.org/) but most of them can be applied for other DIY/Commerical printer as well 
 
 Feel free to raise a ticket at issues tab or submit a commitment if you have anything can be shared \
 I can be reached at [![Discord Icon](/images/discord-24.png "Discord") Voron channel](https://discord.gg/voron)  via @jerryji
 
+And happy printing
+
 **Big thanks for all these awsome creators, you guys make all happen!**
-**And happy printing**
+
 
 ## Printer:
 [HyperCube](https://www.thingiverse.com/thing:1752766) or [HyperCube Evalution](https://www.thingiverse.com/thing:2254103) \
-Salute for these legacy corexy printers, they bring the corexy printer for more popular \
-Even now, one of my dream is remix they to have these fancy klipper features under a reasonable budget 
+Salute for these 'legacy' printers, they are the foundation of moderm 3D printer \
+Even now, one of my dream is remix it, not only include these advance klipper features but also budget friendly
 
 [Voron](https://vorondesign.com/) \
-Do we even need a comment here... \
-ok, ok, if you are new for DIY 3D printer, Trident is my recommendation, but after that you will disever a V2 or V0 or SW or Legacy, who knows...
+I don't think we need a comment here... but if you are new for DIY 3D printer, and want build a printer with your own hands, Trident is my recommendation, but after that you will desire a V2 or V0 or SW or Legacy, who knows...
 
 [VzBot](https://github.com/VzBoT3D)
 A fast corexy printer series, I mean, very fast
 
 [Annex Engineering](https://github.com/Annex-Engineering)
-A fast cross gantry, AWD driver, make sure your house is strong enough to hold this monster
+A fast cross xy gantry printer, AWD driver, make sure your house is strong enough to hold this monster
 
 [HevORT](https://hevort.com/)
 A fancy corexy printer with ballscrew at Z axis
 
 [The 100](https://github.com/MSzturc/the100)
-My new favior corexy printer, not fancy, but fast and wallet friendly
+THE 100, the fastest 3D Printer based on a printed frame, said by creator which I agree. 
+Only concern is you may need a printer to print this printer as its print part can be damaged while printing, no backup printer to print the print part will be painful
 
-## HW:
+## Hardware:
 
-### Useful Tools:
-To help you select the right stepper motor:
+### Overview For A Klipper Printer
 
-[Motor Torque Sim](https://github.com/eddietheengineer/documentation/tree/master/stepper_motor/data)
+#### CAN BUS Staffs
+1. Bigtree U2C/EBB32/2209
+2. [Katapult](https://github.com/Esoterical/voron_canbus) (formerly known as CanBoot): you can now flash CAN bus based MCU board over CAN bus directly. You **DON'T** need disassemble your MCU board then connect it with your computer via USB connection to upgrade MCU board klipper firmware. 
+***Highly recommend***
 
-An awsome belt tension meter: [Link](https://github.com/Diyshift/3D-Printer/tree/main/GT2%20Belt%20Tension%20Meter)
+## SW
 
-<img src="https://github.com/Diyshift/3D-Printer/blob/main/GT2%20Belt%20Tension%20Meter/Images/meteronbelt.JPG" width=300>
-
-DIY Silicone Brush: [Link](https://github.com/Diyshift/3D-Printer/tree/main/Silicone%20Brush%20for%20Decontaminator)
-
-<img src="https://github.com/Diyshift/3D-Printer/raw/main/Silicone%20Brush%20for%20Decontaminator/Images/brush_iso.png" width=300>
-
-
-## SW:
+Basic Steps:
+1. Choose your perferred WebUI with klipper integrated: [Mainsail](https://docs.mainsail.xyz/) / [Fluidd](https://docs.fluidd.xyz/) / [Octoprint](https://octoprint.org/), and burn its image into a SD card
+   - Generally they are function the same, but just different UI, choose one you like shall be ok as a start point.
+2. Build klipper firmware on the pi for your MCU board and flash it to your MCU board, [Link](https://docs.vorondesign.com/build/software/#firmware-flashing)
+3. Config your printer
+   1. Config SW
+https://docs.vorondesign.com/build/software/configuration.html
+   1. Install Tap
+https://github.com/VoronDesign/Voron-Tap#post-install-setup
+1. Initial check
+   1. Motion
+   2. Temp
 
 [Klippain - The pain-free recipe for (french)bread and butter Klipper configuration!](https://github.com/Frix-x/klippain)
 
 [Elli's Printer Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/)
+
+## Mods:
+To help you select the right stepper motor:
+
+[Motor Torque Sim](https://github.com/eddietheengineer/documentation/tree/master/stepper_motor/data) 
+
+[An useful belt tension meter](https://github.com/Diyshift/3D-Printer/tree/main/GT2%20Belt%20Tension%20Meter)
+<img src="https://github.com/Diyshift/3D-Printer/blob/main/GT2%20Belt%20Tension%20Meter/Images/meteronbelt.JPG?raw=true" width=300>
+
+[DIY Silicone Brush](https://github.com/Diyshift/3D-Printer/tree/main/Silicone%20Brush%20for%20Decontaminator)
+<img src="https://github.com/Diyshift/3D-Printer/raw/main/Silicone%20Brush%20for%20Decontaminator/Images/brush_iso.png" width=300>
 
 
 ## Copyrights
